@@ -7,6 +7,5 @@ fun main(){
     val userMeloman = false
     val finalPrice = if (userMeloman) (resultCost - (resultCost * melomanDiscount)).toInt() else resultCost
 
-
     println("${finalPrice/100} руб. ${finalPrice%100} коп.")
 }
